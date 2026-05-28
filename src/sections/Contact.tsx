@@ -31,7 +31,7 @@ function Contact() {
           <div className="mt-12 flex flex-col gap-5 sm:flex-row">
             
             <a
-              href="mailto:yourmail@gmail.com"
+              href="mailto:krishnasusari@gmail.com"
               className="flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-medium text-black transition hover:scale-105"
             >
               Send Email

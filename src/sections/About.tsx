@@ -42,7 +42,7 @@ function About() {
             <div className="relative overflow-hidden rounded-[40px] border border-black/10 bg-white p-4 shadow-xl">
               
               <img
-                src="/your-image2.jpg"
+                src="/your-image2.webp"
                 alt="about"
                 className="h-[500px] w-full rounded-[28px] object-cover"
               />

@@ -20,14 +20,12 @@ function Hero() {
       <div className="absolute bottom-[-100px] right-[-100px] h-[350px] w-[350px] rounded-full bg-black/5 blur-3xl"></div>
 
       <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-2">
-        
         {/* LEFT */}
         <motion.div
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          
           {/* Badge */}
           <div className="mb-6 inline-flex items-center rounded-full border border-black/10 bg-white px-5 py-2 text-sm font-medium shadow-sm backdrop-blur-xl">
             ✦ Creative Frontend Developer
@@ -42,21 +40,17 @@ function Hero() {
             <span className="block bg-gradient-to-r from-black to-black/40 bg-clip-text text-transparent">
               Premium Web
             </span>
-
-            <span className="block">
-              Experiences
-            </span>
+            <span className="block">Experiences</span>
           </h1>
 
           {/* Description */}
           <p className="mt-8 max-w-xl text-base leading-8 text-black/60 md:text-lg">
-            I create modern websites and digital experiences focused on
-            smooth interactions, premium UI, and responsive development.
+            I create modern websites and digital experiences focused on smooth
+            interactions, premium UI, and responsive development.
           </p>
 
           {/* Buttons */}
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            
             <a
               href="#projects"
               className="flex items-center justify-center rounded-full bg-black px-8 py-4 text-sm font-medium text-white transition duration-300 hover:scale-105"
@@ -64,18 +58,23 @@ function Hero() {
               View Projects
             </a>
 
-            <a
+            {/* <a
               href="#contact"
               className="flex items-center justify-center rounded-full border border-black/10 bg-white px-8 py-4 text-sm font-medium transition duration-300 hover:bg-black hover:text-white"
             >
               Let’s Talk
+            </a> */}
+            <a
+              href="/gopal_krishna_susari-resume.pdf"
+              target="_blank"
+              className="flex items-center justify-center rounded-full border border-black/10 bg-white px-8 py-4 text-sm font-medium transition duration-300 hover:bg-black hover:text-white"
+            >
+              Download Resume
             </a>
-
           </div>
 
           {/* Tech Pills */}
           <div className="mt-12 flex flex-wrap gap-3">
-            
             {techStack.map((tech, index) => (
               <motion.div
                 key={index}
@@ -87,35 +86,25 @@ function Hero() {
                 {tech}
               </motion.div>
             ))}
-
           </div>
 
           {/* Stats */}
           <div className="mt-14 flex flex-wrap gap-10">
-            
             <div>
               <h3 className="text-3xl font-bold">20+</h3>
-              <p className="mt-1 text-sm text-black/50">
-                Projects
-              </p>
+              <p className="mt-1 text-sm text-black/50">Projects</p>
             </div>
 
             <div>
               <h3 className="text-3xl font-bold">10+</h3>
-              <p className="mt-1 text-sm text-black/50">
-                Technologies
-              </p>
+              <p className="mt-1 text-sm text-black/50">Technologies</p>
             </div>
 
             <div>
               <h3 className="text-3xl font-bold">100%</h3>
-              <p className="mt-1 text-sm text-black/50">
-                Responsive
-              </p>
+              <p className="mt-1 text-sm text-black/50">Responsive</p>
             </div>
-
           </div>
-
         </motion.div>
 
         {/* RIGHT */}
@@ -125,7 +114,6 @@ function Hero() {
           transition={{ duration: 0.8 }}
           className="relative flex justify-center lg:justify-end"
         >
-          
           {/* Glow */}
           <div className="absolute h-[450px] w-[450px] rounded-full bg-black/5 blur-3xl"></div>
 
@@ -135,9 +123,8 @@ function Hero() {
             transition={{ duration: 0.4 }}
             className="relative  rounded-[40px] border border-black/10 bg-white p-4 shadow-2xl"
           >
-            
             <img
-              src="/your-image.jpg"
+              src="/your-image.webp"
               alt="profile"
               className="h-[520px] w-full rounded-[32px] object-cover lg:w-[430px]"
             />
@@ -149,17 +136,13 @@ function Hero() {
                 repeat: Infinity,
                 duration: 4,
               }}
-             className="absolute left-4 top-6 rounded-3xl border border-black/10 bg-white px-4 py-3 shadow-xl backdrop-blur-xl sm:left-6 sm:top-8 lg:left-[-30px] lg:top-10"
+              className="absolute left-4 top-6 rounded-3xl border border-black/10 bg-white px-4 py-3 shadow-xl backdrop-blur-xl sm:left-6 sm:top-8 lg:left-[-30px] lg:top-10"
             >
-              
-              <p className="text-xs text-black/50">
-                Frontend
-              </p>
+              <p className="text-xs text-black/50">Frontend</p>
 
               <h4 className="mt-1 text-base font-semibold sm:text-lg">
                 React Developer
               </h4>
-
             </motion.div>
 
             {/* Floating Card 2 */}
@@ -171,25 +154,18 @@ function Hero() {
               }}
               className="absolute bottom-6 right-4 rounded-3xl border border-black/10 bg-white px-4 py-3 shadow-xl backdrop-blur-xl sm:bottom-8 sm:right-6 lg:bottom-10 lg:right-[-20px]"
             >
-              
-              <p className="text-xs text-black/50">
-                Specialized In
-              </p>
+              <p className="text-xs text-black/50">Specialized In</p>
 
               <h4 className="mt-1 text-base font-semibold sm:text-lg">
                 UI/UX & Motion
               </h4>
-
             </motion.div>
-
           </motion.div>
         </motion.div>
-
       </div>
 
       {/* Marquee */}
       <div className="mt-24 overflow-hidden border-y border-black/10 py-6">
-        
         <motion.div
           animate={{ x: ["0%", "-50%"] }}
           transition={{
@@ -199,7 +175,6 @@ function Hero() {
           }}
           className="flex whitespace-nowrap"
         >
-          
           {Array.from({ length: 2 }).map((_, i) => (
             <div
               key={i}
@@ -213,10 +188,8 @@ function Hero() {
               <span>Premium Experience</span>
             </div>
           ))}
-
         </motion.div>
       </div>
-
     </section>
   );
 }

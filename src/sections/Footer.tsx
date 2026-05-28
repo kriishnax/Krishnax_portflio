@@ -55,21 +55,21 @@ function Footer() {
             <div className="flex gap-4">
               
               <a
-                href="#"
+                href="https://github.com/kriishnax"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-black/10 transition hover:bg-black hover:text-white"
               >
                 <FiGithub />
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/gopal-krishna-susari/"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-black/10 transition hover:bg-black hover:text-white"
               >
                 <FiLinkedin />
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/kriishnax_/"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-black/10 transition hover:bg-black hover:text-white"
               >
                 <FiInstagram />
@@ -85,11 +85,11 @@ function Footer() {
         <div className="mt-10 flex flex-col gap-3 border-t border-black/10 pt-6 text-sm text-black/40 md:flex-row md:items-center md:justify-between">
           
           <p>
-            © 2026 Krishnax. All rights reserved.
+            2026 Krishnax. All rights reserved.© Echowaves Lab
           </p>
 
           <p>
-            Designed & Developed with React + Tailwind CSS
+            Designed & Developed with 💝
           </p>
 
         </div>
