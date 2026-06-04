@@ -5,17 +5,22 @@ import Container from "../components/Container";
 
 const projects = [
   {
-    title: "Modern Portfolio Website",
-    description:
-      "A premium personal portfolio focused on modern UI, smooth animations, and responsive layouts using React and Tailwind CSS.",
+   title: "Travito – Your AI Travel Buddy",
 
-    image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+description:
+  "An AI-powered travel planning application that helps users create personalized itineraries, discover destinations, manage bookings, and organize trips through intelligent recommendations and a seamless mobile experience.",
 
-    tech: ["React", "Tailwind", "Framer Motion"],
+image: "/proj3.png",
 
-    live: "#",
-    github: "#",
+tech: [
+  "React Native",
+  "TypeScript",
+  "Firebase",
+  "AI Integration",
+],
+
+live: "#",
+github: "https://github.com/kriishnax/Travito",
   },
 
   {
