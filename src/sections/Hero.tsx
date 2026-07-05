@@ -65,7 +65,7 @@ function Hero() {
               Let’s Talk
             </a> */}
             <a
-              href="/gopal_krishna_susari-resume.pdf"
+              href="/Gopal_Krishna_Susari_Resume.pdf"
               target="_blank"
               className="flex items-center justify-center rounded-full border border-black/10 bg-white px-8 py-4 text-sm font-medium transition duration-300 hover:bg-black hover:text-white"
             >
